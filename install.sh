@@ -12,7 +12,7 @@ XFCE_KEYBOARD_XML="$USER_HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-key
 install_dependencies() {
     echo "Installing dependencies..."
     sudo apt update
-    sudo apt install -y chromium xdotool
+    sudo apt install -y chromium xdotool xmlstarlet
 }
 
 # Create the script for opening Chromium in kiosk mode
